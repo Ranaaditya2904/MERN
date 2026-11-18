@@ -1,18 +1,16 @@
 import "./App.css"
 import "./Description.jsx"
-import Description from "./Description.jsx";
-
-function Title(){
-  return <h1>I am the title</h1>;
-}
+import ProductTab from "./ProductTab.jsx";
+import Hello from "./Hello.jsx";
+import Button from "./Button.jsx";
+import "./Form.jsx";
+import Form from "./Form.jsx";
 
 function App() {
-  return (
-  <div>
-    <Description/>
-    <Title/>
-  </div>
-  );
+  return <Form/>
 }
+
+
+
 
 export default App
